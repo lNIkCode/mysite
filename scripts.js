@@ -1,5 +1,7 @@
 window.addEventListener('DOMContentLoaded', event => {
-
+    let chat = document.getElementById('embeddedMessagingConversationButton');
+    console.log('Chat', chat);
+    document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
