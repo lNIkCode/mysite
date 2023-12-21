@@ -466,6 +466,9 @@
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				console.log("Inside Prechat");
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CI_DNI": "07291017"});
+				let chat = document.querySelector('#embeddedMessagingConversationButton');
+				console.log('Chat', chat);
+				document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
 			});
  
 			embeddedservice_bootstrap.init(
@@ -479,9 +482,7 @@
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
-		let chat = document.querySelector('#embeddedMessagingConversationButton');
-		console.log('Chat', chat);
-		document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
+		
 	};
 </script>
 <script type='text/javascript' src='https://cinternacional1--sprint2dev.sandbox.my.site.com/ESWCIWebMessagingDeploy1702390812474/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
