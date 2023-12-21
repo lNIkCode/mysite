@@ -476,12 +476,6 @@
 					scrt2URL: 'https://cinternacional1--sprint2dev.sandbox.my.salesforce-scrt.com'
 				}
 			);
-
-			window.addEventListener('load', function(event) {
-				let chat = document.getElementById('embeddedMessagingConversationButton');
-				console.log('Chat', chat);
-				document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
-			});
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
