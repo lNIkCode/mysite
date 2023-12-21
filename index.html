@@ -466,9 +466,6 @@
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				console.log("Inside Prechat");
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CI_DNI": "07291017"});
-				let chat = document.getElementById('embeddedMessagingConversationButton');
-				console.log('Chat', chat);
-				document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
 			});
  
 			embeddedservice_bootstrap.init(
@@ -479,6 +476,12 @@
 					scrt2URL: 'https://cinternacional1--sprint2dev.sandbox.my.salesforce-scrt.com'
 				}
 			);
+
+			window.addEventListener('load', function(event) {
+				let chat = document.getElementById('embeddedMessagingConversationButton');
+				console.log('Chat', chat);
+				document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
+			});
 		} catch (err) {
 			console.error('Error loading Embedded Messaging: ', err);
 		}
