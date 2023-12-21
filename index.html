@@ -466,7 +466,7 @@
 			window.addEventListener("onEmbeddedMessagingReady", () => {
 				console.log("Inside Prechat");
 				embeddedservice_bootstrap.prechatAPI.setHiddenPrechatFields({"CI_DNI": "07291017"});
-				let chat = document.querySelector('#embeddedMessagingConversationButton');
+				let chat = document.getElementById('embeddedMessagingConversationButton');
 				console.log('Chat', chat);
 				document.queryselector('.embeddedMessagingConversationButton').style.display = 'none';
 			});
