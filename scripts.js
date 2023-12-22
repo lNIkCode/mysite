@@ -52,7 +52,6 @@ window.addEventListener('load', function(event) {
     var myButton = document.getElementById('greenButton');
     console.log('BUTTON', myButton);
     myButton.addEventListener('click', function(event) { 
-        alert('Button clicked!');
         chat.click();
     });
 });
