@@ -62,6 +62,7 @@ window.addEventListener('load', function(event) {
 
     chat.addEventListener('click', () => {
         chat.style.display = 'none';
+        console.log('Chat', chat);
     });
 
  
