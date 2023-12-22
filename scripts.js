@@ -55,6 +55,7 @@ window.addEventListener('load', function(event) {
         chat.click();
         var newBody = document.getElementById('newBody');
         var newChat = document.querySelector('embeddedmessaging-container');
+        console.log('New Chat', newChat);
         newBody.appendChild(newChat);
     });
 
