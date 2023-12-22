@@ -54,10 +54,10 @@ window.addEventListener('load', function(event) {
     myButton.addEventListener('click', function(event) { 
         chat.click();
         chat.style.display = 'none';
-        var newBody = document.getElementById('newBody');
-        var newChat = document.querySelector('embeddedmessaging-container');
-        console.log('New Chat', newChat);
-        newBody.appendChild(newChat);     
+        //var newBody = document.getElementById('newBody');
+        //var newChat = document.querySelector('embeddedmessaging-container');
+        //console.log('New Chat', newChat);
+        //newBody.appendChild(newChat);     
     });
 
  
