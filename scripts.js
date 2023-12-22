@@ -60,5 +60,9 @@ window.addEventListener('load', function(event) {
         //newBody.appendChild(newChat);     
     });
 
+    chat.addEventListener('click', () => {
+        chat.style.display = 'none';
+    });
+
  
 });
