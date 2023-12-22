@@ -45,9 +45,6 @@ window.addEventListener('DOMContentLoaded', event => {
 
 
 window.addEventListener('load', function(event) {
-    let chat = document.getElementById('embeddedMessagingConversationButton');
-    console.log('Chat', chat);
-    chat.style.display = 'none';
     
     var myButton = document.getElementById('greenButton');
     console.log('BUTTON', myButton);
