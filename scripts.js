@@ -53,7 +53,7 @@ window.addEventListener('load', function(event) {
     console.log('BUTTON', myButton);
     myButton.addEventListener('click', function(event) { 
         chat.click();
-        chat.style.display = 'none';
+        chat.style.display = 'none !important';
         //var newBody = document.getElementById('newBody');
         //var newChat = document.querySelector('embeddedmessaging-container');
         //console.log('New Chat', newChat);
@@ -61,7 +61,7 @@ window.addEventListener('load', function(event) {
     });
 
     chat.addEventListener('click', () => {
-        chat.style.display = 'none';
+        chat.style.display = 'none !important';
         console.log('Chat', chat);
     });
 
