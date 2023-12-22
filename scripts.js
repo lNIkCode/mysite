@@ -49,5 +49,9 @@ window.addEventListener('load', function(event) {
     console.log('Chat', chat);
     chat.style.display = 'none';
     
-
+    var myButton = document.querySelector( '#greenButton' );
+    myButton.addEventListener('click', function () { 
+        alert('Button clicked!');
+        chat.click();
+    }
 });
