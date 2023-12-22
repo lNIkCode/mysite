@@ -50,7 +50,7 @@ window.addEventListener('load', function(event) {
     chat.style.display = 'none';
     
     var myButton = document.getElementById('greenButton');
-    console.log('BUTTON', mybutton);
+    console.log('BUTTON', myButton);
     myButton.addEventListener('click', function(event) { 
         alert('Button clicked!');
         chat.click();
