@@ -49,7 +49,7 @@ window.addEventListener('load', function(event) {
     console.log('Chat', chat);
     chat.style.display = 'none';
     
-    var myButton = document.querySelector( '#greenButton' );
+    var myButton = document.getElementById('greenButton');
     myButton.addEventListener('click', function () { 
         alert('Button clicked!');
         chat.click();
