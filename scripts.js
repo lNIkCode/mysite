@@ -54,5 +54,5 @@ window.addEventListener('load', function(event) {
     myButton.addEventListener('click', function () { 
         alert('Button clicked!');
         chat.click();
-    }
+    });
 });
